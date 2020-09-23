@@ -1,0 +1,10 @@
+hi every body
+this is a simple FX engine using GetDIbits and setDIbits, to make some transtition effects on some photos when making a slide show
+this engine is 100 % depends on GetDIbits and SetDIBits, so you can simply add your own custom effect by :
+-add it's name in the enum Effects in module "EffectEXE"
+-add it's function in the same module
+  to make a new effect, only you have to fix some points, where to draw, where to take from the first photo and where to take from the second one
+-add it's case in the FXShows.cls Class, form Select Case Partin the function "ExecuteEffect"
+
+and thank you for downloadin' my code
+I hope you enjoy, and vote.
